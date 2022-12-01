@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871025629908",
+    "project_id": "ladm-u4-p1-almacensms",
+    "storage_bucket": "ladm-u4-p1-almacensms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871025629908:android:52fe7df1a4ac3cefc13941",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u4_practica1_almacensms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871025629908-kloh977gr4sr8igeod7bi927hmfmh0af.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWA3WD39Cn8H-D21xkrEjIWLXJDfsfa4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871025629908-kloh977gr4sr8igeod7bi927hmfmh0af.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

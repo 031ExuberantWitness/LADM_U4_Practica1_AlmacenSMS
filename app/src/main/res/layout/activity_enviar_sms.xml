@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:theme="@style/Theme.LADM_U4_Practica1_AlmacenSMS"
+    tools:context=".EnviarSMS">
+
+    <TextView android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar mensaje"
+        android:textSize="40dp"
+        android:textColor="#9E2730"
+        android:fontFamily="@font/comforta"
+        />
+
+    <TextView android:id="@+id/lblMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTitulo"
+        android:text="Mensaje"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"
+        />
+
+    <EditText android:id="@+id/txtMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblMensaje"
+        android:hint="Escribe tu mensaje a enviar"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"
+        />
+
+    <TextView android:id="@+id/lblTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtMensaje"
+        android:text="Telefono"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"
+        />
+
+    <EditText android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblTelefono"
+        android:hint="Numero telefonico"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"
+        />
+
+    <Button android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtTelefono"
+        android:text="Enviar mensaje"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/comforta"
+        android:background="#9E2730"/>
+
+    <TextView android:id="@+id/lblConsola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnEnviar"
+        android:text="Consola"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"
+        />
+
+    <TextView android:id="@+id/txtConsola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblConsola"
+        android:hint="Entradas de consola se veran aqui"
+        android:textColor="#212121"
+        />
+
+    <Button android:id="@+id/btnHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Ver historial de mensajes"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/comforta"
+        android:background="#9E2730"/>
+
+
+</RelativeLayout>
