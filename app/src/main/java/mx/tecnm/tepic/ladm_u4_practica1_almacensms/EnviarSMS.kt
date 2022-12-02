@@ -43,13 +43,8 @@ class EnviarSMS : AppCompatActivity() {
 
     private fun enviarSMS(tel: String, msg: String) : Boolean{
         try {
-            val smsManager : SmsManager
 
-            if (Build.VERSION.SDK_INT >= 23){
-                smsManager = this.getSystemService(SmsManager::class.java)
-            }else{
-                smsManager = SmsManager.getDefault()
-            }
+            val smsManager : SmsManager = SmsManager.getDefault()
 
             smsManager.sendTextMessage(tel, null, msg, null, null)
             Toast.makeText(this, "Alerta: Se envio con exito el mensaje.", Toast.LENGTH_LONG).show()
